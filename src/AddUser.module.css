@@ -1,0 +1,57 @@
+.AddUser{
+    border: 1px solid grey;
+}
+.pageTitle{
+    padding: 20px 30px;
+}
+.pageTitle h1{
+    display: inline;
+}
+.pageTitle button{
+    background: none;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+.form{
+    
+}
+.inputSection{
+    border: 1px solid grey;
+    padding: 20px;
+}
+.inputLabel{
+    margin: 20px;
+}
+.inputLabel label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.inputLabel input{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+.buttonSection{
+    text-align: right;
+    padding: 10px 20px;
+}
+.buttonSection button{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.cancelBtn{
+    background: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.addBtn{
+    background-color: #3ad6a2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 19px;
+}
