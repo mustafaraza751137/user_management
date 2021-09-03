@@ -12,7 +12,7 @@ class UserDetails extends Component {
   }
   
   componentDidMount(){
-    fetch('http://15.207.229.231:8000/machstatz/get_all_users')
+    fetch('https://15.207.229.231:8000/machstatz/get_all_users')
       .then(res => res.json())
       .then(json => {
         this.setState({
@@ -22,7 +22,7 @@ class UserDetails extends Component {
       });
   }
   delete(id){
-    fetch(`http://15.207.229.231:8000/machstatz/delete_existing_user${id}`,
+    fetch(`https://15.207.229.231:8000/machstatz/delete_existing_user${id}`,
     {
       method: 'DELETE',
     })

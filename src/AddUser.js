@@ -13,7 +13,7 @@ function AddUser() {
 
     function submit(e){
         e.preventDefault();
-        Axios.post("http://15.207.229.231:8000/machstatz/add_new_user",{
+        Axios.post("https://15.207.229.231:8000/machstatz/add_new_user",{
             email: data.email,
             fist_name: data.fist_name,
             last_name: data.last_name,
